@@ -1,0 +1,37 @@
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="Contact.html">Contact</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="AboutMe.html">About Me</a>
+        <a href="#home" class="active">Home</a>
+    </div>
+
+    <div> <h1>Welcome To BidBike The Photography</h1> </div>
+
+    <div class="slider">
+        <div class="slides">
+            <img src="Image/Assect/IMG_7285.jpg" alt="Slide 1">
+            <img src="Image/Assect/IMG_7328.jpg" alt="Slide 2">
+            <img src="Image/Assect/IMG_7377.jpg" alt="Slide 3">
+            <img src="Image/Assect/IMG_7561.jpg" alt="Slide 4">
+            <img src="Image/Assect/IMG_7375-2.jpg" alt="Slide 5">
+            <img src="Image/Assect/IMG_7468.jpg" alt="Slide 6">
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+</body>
